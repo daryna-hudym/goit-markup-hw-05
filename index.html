@@ -360,12 +360,10 @@
        </div>
       <div class="footer-form-container">
          <p class="form-text-footer">Subscribe</p>
-         <form class="footer-form">
-            <div class="footer-email-field">
-               <label aria-label="footer-form-email">
-                  <input type="email" name="email-footer" id="email-footer" class="modal-input-footer" placeholder="E-mail" />
-               </label>
-            </div>
+         <form class="footer-form">   
+            <label aria-label="footer-form-email" class="footer-label">
+                <input type="email" name="email-footer" id="email-footer" class="modal-input-footer" placeholder="E-mail" />
+            </label>
             <button type="submit" class="footer-form-btn">Subscribe <svg class="form-icon-footer" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                </svg></button>
@@ -404,11 +402,11 @@
                </div>   
                <div class="modal-field-textarea">                    
                   <label for="user-comment" class="form-label">Comment</label>  
-                  <textarea name="comment" id="user-comment" placeholder="Text input" class="modal-textarea"></textarea>
+                  <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-textarea"></textarea>
                </div>
                <div class="modal-policy-field">
-                 <input type="checkbox" id="policy" name="user-privacy" class="modal-input form-check visually-hidden" value="true" />
-                 <label for="user-privacy" class="form-policy-text"><span class="form-check-style"> <svg class="form-check-icon" width="10" height="8">
+                 <input type="checkbox" id="user-privacy" name="user-privacy" class="modal-input form-check visually-hidden" value="true" />
+                 <label for="user-privacy" class="form-policy-text"><span class="form-check-style"><svg class="form-check-icon" width="10" height="8">
                    <use href="./images/icons.svg#icon-check"></use>
                  </svg></span>I accept the terms and conditions of the&nbsp;<a href="" class="form-policy-link">Privacy Policy</a></label>
                </div>
